@@ -41,6 +41,10 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "short_description": {
+      "type": "blocks",
+      "required": true
     }
   }
 }
