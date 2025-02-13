@@ -25,11 +25,11 @@ module.exports = ({ env }) => {
     postgres: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'junction.proxy.rlwy.net'),
-        port: env.int('DATABASE_PORT', 32755),
-        database: env('DATABASE_NAME', 'railway'),
-        user: env('DATABASE_USERNAME', 'postgres'),
-        password: env('DATABASE_PASSWORD', 'wobmDOCXNUHfAYnVywJMYupclTfjLcqH'),
+        host: env('DATABASE_HOST', 'dpg-cumk6ei3esus738shkp0-a'),
+        port: env.int('DATABASE_PORT', 5432),
+        database: env('DATABASE_NAME', 'strapi_ecommerce_pec3'),
+        user: env('DATABASE_USERNAME', 'strapi'),
+        password: env('DATABASE_PASSWORD', 'bBOZErHrjKAaMKHOMGWUvdf2Do7yVWt6'),
         ssl: env.bool('DATABASE_SSL', true) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
