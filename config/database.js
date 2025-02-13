@@ -25,7 +25,7 @@ module.exports = ({ env }) => {
     postgres: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'dpg-cumk6ei3esus738shkp0-a'),
+        host: env('DATABASE_HOST', 'postgresql://strapi:bBOZErHrjKAaMKHOMGWUvdf2Do7yVWt6@dpg-cumk6ei3esus738shkp0-a/strapi_ecommerce_pec3'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'strapi_ecommerce_pec3'),
         user: env('DATABASE_USERNAME', 'strapi'),
